@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+
+.high-scores {
+  text-decoration: underline;
+  color: #0775b0;
+}
+
+button {
+  font-size: 1.6rem;
+  padding: 14px;
+  background: linear-gradient(to top, #0775b0, #028fdc, #21b1ff);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.rules p {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.game-controls {
+  padding: 40px 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.game-controls button {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.quiz,
+.next {
+  display: none;
+}
+
+.quiz-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quiz ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz ul li {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.quiz button {
+  width: 100%;
+  max-width: 850px;
+  text-align: left;
+}

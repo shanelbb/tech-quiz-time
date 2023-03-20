@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Quiz Time</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p class="high-scores">View High Scores</p>
+      <h1>Tech Quiz Time</h1>
+      <p class="timer">Time Remaining: <span class="countdown">0</span></p>
+    </header>
+    <main>
+      <section class="rules">
+        <p>
+          Answer the following code related questions within the set time limit.
+          Please note that incorrect answers will take 5 seconds off the timer.
+        </p>
+      </section>
+
+      <section class="game-controls">
+        <button class="start">Start the Quiz!</button>
+        <button class="next">Next Question!</button>
+      </section>
+
+      <section class="quiz">
+        <div class="quiz-layout">
+          <h2>Here is your first question</h2>
+          <ul>
+            <li><button class="options option1">1.</button></li>
+            <li><button class="options option2">2.</button></li>
+            <li><button class="options option3">3.</button></li>
+            <li><button class="options option4">4.</button></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="user-score"></section>
+      <section class="high-scores"></section>
+    </main>
+
+    <script src="./assets/questions.js"></script>
+    <script src="./assets/scripts.js" type="module"></script>
+  </body>
+</html>
