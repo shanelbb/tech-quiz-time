@@ -17,6 +17,10 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 2.5rem;
+}
+
 p {
   font-size: 1.6rem;
 }
@@ -70,7 +74,8 @@ button:active {
   display: none;
 }
 
-.quiz-layout {
+.quiz-layout,
+.msg-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,4 +100,33 @@ button:active {
   width: 100%;
   max-width: 850px;
   text-align: left;
+}
+
+.msg-container {
+  max-width: 500px;
+  text-align: center;
+}
+
+.msg-container p {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.msg-container button {
+  width: 250px;
+  text-align: center;
+}
+
+.correct {
+  font-weight: bold;
+  font-style: italic;
+  color: #41aa4a;
+}
+
+.correctBtn {
+  background: linear-gradient(to top, #1e8f31, #41aa4a, #5fc663);
+}
+
+.incorrectBtn {
+  background: linear-gradient(to top, #a62c2b, #e36359, #ff7e72);
 }
